@@ -1,7 +1,7 @@
-# 39 - Clinical Data Intelligence & HL7/FHIR Analytics (XQuery)
+# Clinical Data Intelligence & HL7/FHIR Analytics (XQuery)
 
 ## Executive Overview
-An enterprise healthcare data intelligence engine written in **XQuery 3.1**. It utilizes advanced **FLWOR (For-Let-Where-Order-By-Return)** expressions to parse, query, and aggregate nested HL7/FHIR (Fast Healthcare Interoperability Resources) XML clinical bundles, automatically identifying acute patient risk indicators.
+An enterprise healthcare data intelligence engine written in **XQuery 3.1**. It utilises advanced **FLWOR (For-Let-Where-Order-By-Return)** expressions to parse, query, and aggregate nested HL7/FHIR (Fast Healthcare Interoperability Resources) XML clinical bundles, automatically identifying acute patient risk indicators.
 
 ## Healthcare Stream Analytics
 
