@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="hospital-er-triage-stream"/>
+  <type value="collection"/>
+
+  <entry>
+    <resource>
+      <Patient>
+        <id value="PAT-00109"/>
+        <gender value="male"/>
+        <birthDate value="1958-04-12"/>
+      </Patient>
+    </resource>
+  </entry>
+
+  <entry>
+    <resource>
+      <Observation>
+        <id value="OBS-TROPONIN-99"/>
+        <subject>
+          <reference value="Patient/PAT-00109"/>
+        </subject>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="49563-0"/>
+            <display value="Cardiac Troponin I"/>
+          </coding>
+        </code>
+        <valueQuantity>
+          <value value="0.45"/>
+          <unit value="ng/mL"/>
+        </valueQuantity>
+        <interpretation>
+          <coding>
+            <code value="CRITICAL_HIGH"/>
+          </coding>
+        </interpretation>
+      </Observation>
+    </resource>
+  </entry>
+
+  <entry>
+    <resource>
+      <Observation>
+        <id value="OBS-SYSTOLIC-BP-01"/>
+        <subject>
+          <reference value="Patient/PAT-00109"/>
+        </subject>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="8480-6"/>
+            <display value="Systolic Blood Pressure"/>
+          </coding>
+        </code>
+        <valueQuantity>
+          <value value="192"/>
+          <unit value="mmHg"/>
+        </valueQuantity>
+        <interpretation>
+          <coding>
+            <code value="HIGH"/>
+          </coding>
+        </interpretation>
+      </Observation>
+    </resource>
+  </entry>
+</Bundle>
